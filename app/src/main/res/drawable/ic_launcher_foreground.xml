@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center group scaled to 66dp safe zone inside 108dp -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+        <!-- Slate / Board backing -->
+        <path
+            android:fillColor="#E0E6ED"
+            android:pathData="M24,24 L84,24 A6,6 0 0,1 90,30 L90,78 A6,6 0 0,1 84,84 L24,84 A6,6 0 0,1 18,78 L18,30 A6,6 0 0,1 24,24 Z" />
+        <path
+            android:fillColor="#0D3B66"
+            android:pathData="M26,26 L82,26 A4,4 0 0,1 86,30 L86,76 A4,4 0 0,1 82,80 L26,80 A4,4 0 0,1 22,76 L22,30 A4,4 0 0,1 26,26 Z" />
+        <!-- Plus sign (top left) -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M38,34 L42,34 L42,40 L48,40 L48,44 L42,44 L42,50 L38,50 L38,44 L32,44 L32,40 L38,40 Z" />
+        <!-- Minus sign (top right) -->
+        <path
+            android:fillColor="#81D4FA"
+            android:pathData="M60,40 L76,40 L76,44 L60,44 Z" />
+        <!-- Multiply cross (bottom left) -->
+        <path
+            android:fillColor="#80CBC4"
+            android:pathData="M34,60 L37,57 L41,61 L45,57 L48,60 L44,64 L48,68 L45,71 L41,67 L37,71 L34,68 L38,64 Z" />
+        <!-- Division (bottom right) -->
+        <path
+            android:fillColor="#FF8A80"
+            android:pathData="M66,57 A2.5,2.5 0 1,1 66,62 A2.5,2.5 0 1,1 66,57 Z M60,63.5 L76,63.5 L76,65.5 L60,65.5 Z M66,67 A2.5,2.5 0 1,1 66,72 A2.5,2.5 0 1,1 66,67 Z" />
+        <!-- Center badge "3" for Grade 3 / ថ្នាក់ទី៣ -->
+        <path
+            android:fillColor="#FFC107"
+            android:pathData="M54,46 A9,9 0 1,1 54,64 A9,9 0 1,1 54,46 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,50 L56.5,50 C58,50 59,51 59,52.2 C59,53.2 58.2,54 57,54.2 C58.5,54.5 59.5,55.5 59.5,57 C59.5,58.5 58,59.8 56,59.8 L51.5,59.8 L51.5,57.8 L55.5,57.8 C56.5,57.8 57.2,57.3 57.2,56.5 C57.2,55.7 56.5,55.2 55.5,55.2 L53.5,55.2 L53.5,53.5 L55.5,53.5 C56.3,53.5 57,53 57,52.3 C57,51.6 56.3,51.2 55.5,51.2 L52,51.2 Z" />
+    </group>
+</vector>
